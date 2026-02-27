@@ -10,7 +10,7 @@ int main(){
     int a2[a];
     int *p=arr;
     for(int i=0;i<a;i++){
-       a2[i]=*(p+(a-1)-i);
+       a2[i]=*(p+(a-1)-i); 
     }
     for(int i=0;i<a;i++){
         printf("%d ",a2[i]);

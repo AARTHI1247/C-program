@@ -7,9 +7,8 @@ int main(){
     fgets(arr,50,stdin);
     arr[strcspn(arr,"\n")]='\0';
     int len=strlen(arr);
-    int c=1,f;
+    int c=1;
     for(int i=0;i<len;i++){
-        f=1;
         for(int j=i+1;j<len;j++){
            if(arr[i]==arr[j]){
             arr[j]=0;

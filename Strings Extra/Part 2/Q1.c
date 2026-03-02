@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1;j<len;j++){
             if(arr[i]==arr[j]){
                 arr[j]=0;
-                f=1;
+                f=1;    
                 break;
             }
         }

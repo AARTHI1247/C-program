@@ -5,7 +5,7 @@ int main(){
     fgets(arr,50,stdin);
     arr[strcspn(arr,"\n")]='\0';
     int len=strlen(arr);
-    int c=0,f,name=0;
+    int c=0,f;
     for(int i=0;i<len;i++){
         if(arr[i]!=0){
         f=0;

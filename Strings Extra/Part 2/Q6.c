@@ -16,7 +16,7 @@ int main(){
     else{
         a1[j]='\0';
         k=0;
-        for(int m=c-1;m>=0;m--){
+        for(int m=c-1;m>=0;m--){      
             a2[k]=a1[m];
             k++;
         }
